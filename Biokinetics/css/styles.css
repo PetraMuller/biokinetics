@@ -1,0 +1,107 @@
+body {
+  background-color: #a9c6de;
+  margin: 40px;
+  text-align: center;
+  /* you can add different font types, seperated by , the browser will then use the first specified font
+  but if it does not have the font type then it will move down your list of font types */
+  /* look at CSS web safe fonts */
+  font-family: "Papyrus", Arial, sans-serif;
+  color: #40514E;
+}
+
+h1 {
+  display: inline-block;
+  margin-top: 50px;
+  /* if you want to make sure that all users see exactly the font you selected - go see http://fonts.google.com
+  they have embedded fonts, then add them to your system by copying the link of the font to your index.html
+  and adding the font-family to your css styles */
+  font-family: 'Dancing Script', sans-serif;
+  font-size: 4rem;
+  color: #373a6d;
+  line-height: 1;
+  /* space between h1 and top image. Line-heigt is specified with just a numeric number
+                   without the units (example pixels) */
+  /* font-weight: normal; --> makes the font looks lighter */
+}
+
+h4 {
+  margin-top: 50px;
+  margin-bottom: 60px;
+}
+
+.container-fluid {
+  background-color: #fff;
+  padding: 3% 15%;
+  /* top and bottom; lef and right; */
+}
+
+.title-img {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  /* position: absolute;   */
+}
+
+.top-heading {
+  padding-bottom: 5%;
+}
+
+/* about section */
+.about-section {
+  padding-bottom: 5%;
+}
+
+.about-text {
+  text-align: left;
+}
+
+.about-list {
+  text-align: left;
+}
+
+/* services section  */
+.services-section {
+  padding-top: 20px;
+  background-color: #fff;
+}
+
+.services-img {
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+/* contact section */
+.contact-text {
+  margin-top: 60px;
+  margin-bottom: 10px;
+}
+
+.contact-dtls {
+  font-family: Montserrat-medium;
+  text-align: center;
+  padding: 8% 2%;
+  line-height: 1.5;
+}
+
+.contact-img {
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  padding: 10% 2%;
+  /* position: absolute;   */
+}
+
+/* footer section */
+.sos-icon {
+  margin: 20px 10px;
+}
+
+.copyr {
+  font-size: 10px;
+}
+
+.links {
+  margin-top: 20px;
+  display: inline-block;
+}
